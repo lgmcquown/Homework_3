@@ -1,0 +1,5 @@
+outermost eledict
+2nd level key is element name: value is a dictionary
+3rd level MM:val,Z:val,rho:val, numisos:val, isos: dictionary
+4th level massNum:list relAbund:list
+5th level masNums    relAbunds
