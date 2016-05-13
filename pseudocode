@@ -1,0 +1,32 @@
+elefile = open('elelib.std')
+   
+
+EleNames = []
+eledict = {}
+
+
+for line in elefile:
+    strip newline
+    data = split line
+    num of isos = data[-1]
+    store data in a dictionary
+	key vals are element names and map to subdictionaries
+	    sub dict keys are  MM, Z, rho, numisos
+    for isolinenum in range(numisos)
+        read line
+	strip line
+	isodata = split line
+        put isodata into dictionary
+
+make modular and test
+
+
+
+    if len(line) = 5:
+	k = line[4]
+        nums = [1:k]
+            for num in nums:
+                  elelib.append(lines[line][0]'_'lines[line+num][0])
+			get h_1, h_2 etc 
+                  I need to somehow map the names from ^ to be keys to the eledict dictionary
+How I want it to look:		  eledict = {'h_1':{'symbol':val, 'MM':val, 'ANum':val,'rho':val}, 'h_2':{'symbol':val, 'MM':val, 'ANum':val,'rho':val}}
